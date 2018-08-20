@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>林顺欢迎您！</title>
+</head>
+<style>
+    p{
+        color: green;
+    }
+</style>
+<script>
+    function lin(){
+        cur=document.getElementById("ar");
+        cur.innerHTML="hfhfkyfuy";
+        cur.style.color="red";
+    }
+
+</script>
+<body>
+<a href="/creat">新建日记</a>
+<form action="" method="post">
+    <p  id="ar" onclick="lin()">很高兴看见您！</p>
+    <p>天气：<input type="text" name="weather"></p>
+    <p>心情：<input type="text" name="mood"></p>
+    <p>内容：<textarea rows="10" type="text" name="content"></textarea></p>
+    <p><input type="submit" value="保存"></p>
+</form>
+
+</body>
+</html>
